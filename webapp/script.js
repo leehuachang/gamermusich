@@ -12,8 +12,15 @@ const musicTracks = {
         // Add more combat tracks here
     ],
     exploration: [
-        'music/exploration1.mp3',
-        'music/exploration2.mp3',
+        'music/Lofi hiphop 1.mp3',
+        'music/Lofi hiphop 2.mp3',
+		'music/Lofi hiphop 3.mp3',
+		'music/Lofi hiphop 4.mp3',
+		'music/Lofi hiphop 5.mp3',
+		'music/Lofi hiphop 6.mp3',
+		'music/Lofi hiphop 7.mp3',
+		'music/Lofi hiphop 8.mp3',
+		'music/Lofi hiphop 9.mp3',
         // Add more exploration tracks here
     ],
     boss: [
