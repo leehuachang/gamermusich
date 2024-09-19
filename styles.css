@@ -1,17 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Style for new sections */
+section {
+    padding: 60px 0;
+    text-align: center;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-    background-color: #1a1a1a;
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
-h1, h2, h3 {
+section h2 {
+    font-size: 2.5rem;
     color: #00ffcc;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
 }
 
 button {
@@ -22,71 +28,27 @@ button {
     color: #1a1a1a;
     font-size: 1rem;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #00cc99;
 }
 
-/* Hero Section */
-#hero {
-    background: url('gamer-background.jpg') no-repeat center center/cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#hero h1 {
-    font-size: 3rem;
-}
-
-#hero p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-/* Features Section */
-#features {
-    padding: 50px 0;
-    text-align: center;
-}
-
-#features .feature {
-    margin: 20px 0;
-}
-
-/* Subscription Section */
-#subscriptions {
-    padding: 50px 0;
-    background-color: #262626;
-    text-align: center;
-}
-
-#subscriptions .plan {
-    display: inline-block;
-    width: 300px;
-    padding: 20px;
-    margin: 20px;
-    background-color: #333;
-    border-radius: 10px;
-}
-
-#subscriptions .plan h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-/* Call to Action Section */
-#cta {
-    padding: 50px 0;
-    text-align: center;
-}
-
+/* Footer styling with social links */
 footer {
     padding: 20px;
     text-align: center;
     background-color: #1a1a1a;
     color: #777;
+}
+
+.social-links a {
+    color: #00ffcc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #00cc99;
 }
