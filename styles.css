@@ -22,18 +22,32 @@ body {
     text-align: center;
 }
 
-h1, h2 {
-    color: #00ffcc;
-    margin-bottom: 20px;
+/* Splash Section */
+#splash {
+    background: url('placeholder.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
 }
 
-p {
-    font-size: 1.2rem;
-    margin: 20px 0;
+.splash-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #ffa500;
+}
+
+.splash-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #fff;
 }
 
 button {
-    background-color: #00ffcc;
+    background-color: #ffa500;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -44,23 +58,26 @@ button {
 }
 
 button:hover {
-    background-color: #00cc99;
+    background-color: #ff8c00;
 }
 
-/* Background box styles for sections */
-.solution-box,
-.detection-box,
-.ai-box,
-.adaptation-box,
-.subscription-box,
-.value-add-box,
-.market-box,
-.competitive-box,
-.conclusion-box {
-    background-color: #262626;
-    padding: 40px;
-    border-radius: 10px;
+/* Background color alternation for sections */
+.light-bg {
+    background-color: #2c2c2c;
+}
+
+.dark-bg {
+    background-color: #1a1a1a;
+}
+
+h2 {
+    color: #ffa500;
     margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 20px 0;
 }
 
 /* Footer styling with social links */
@@ -72,11 +89,11 @@ footer {
 }
 
 .social-links a {
-    color: #00ffcc;
+    color: #ffa500;
     text-decoration: none;
     margin: 0 10px;
 }
 
 .social-links a:hover {
-    color: #00cc99;
+    color: #ff8c00;
 }
