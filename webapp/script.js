@@ -25,7 +25,7 @@ const musicTracks = {
     ],
     boss: [
         'music/boss1.mp3',
-        'music/boss2.mp3',
+        'music/boss2.mp3','music/Lofi hiphop 9.mp3',
         // Add more boss fight tracks here
     ]
 };
