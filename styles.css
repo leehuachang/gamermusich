@@ -1,22 +1,38 @@
-/* Style for new sections */
-section {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-padding {
     padding: 60px 0;
-    text-align: center;
 }
 
-section img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
-
-section h2 {
-    font-size: 2.5rem;
+h1, h2 {
     color: #00ffcc;
 }
 
-section p {
+p {
     font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
     margin: 20px 0;
 }
 
@@ -35,7 +51,6 @@ button:hover {
     background-color: #00cc99;
 }
 
-/* Footer styling with social links */
 footer {
     padding: 20px;
     text-align: center;
