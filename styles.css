@@ -19,20 +19,16 @@ body {
 
 .section-padding {
     padding: 60px 0;
+    text-align: center;
 }
 
 h1, h2 {
     color: #00ffcc;
+    margin-bottom: 20px;
 }
 
 p {
     font-size: 1.2rem;
-    margin: 20px 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
     margin: 20px 0;
 }
 
@@ -51,6 +47,23 @@ button:hover {
     background-color: #00cc99;
 }
 
+/* Background box styles for sections */
+.solution-box,
+.detection-box,
+.ai-box,
+.adaptation-box,
+.subscription-box,
+.value-add-box,
+.market-box,
+.competitive-box,
+.conclusion-box {
+    background-color: #262626;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer styling with social links */
 footer {
     padding: 20px;
     text-align: center;
