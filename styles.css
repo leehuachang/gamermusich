@@ -24,25 +24,35 @@ body {
 
 /* Splash Section */
 #splash {
-    background: url('placeholder.jpg') no-repeat center center/cover;
+    background-color: #1a1a1a;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.splash-content {
     position: relative;
+    z-index: 1;
 }
 
-.splash-content h1 {
-    font-size: 4rem;
+.splash-image {
+    width: 60%;
     margin-bottom: 20px;
-    color: #ffa500;
 }
 
-.splash-content p {
+h1 {
+    font-size: 4rem;
+    color: #ffa500;
+    margin-bottom: 10px;
+}
+
+p {
     font-size: 1.5rem;
-    margin-bottom: 30px;
-    color: #fff;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .cta-btn {
@@ -58,13 +68,6 @@ body {
 
 .cta-btn:hover {
     background-color: #ff8c00;
-}
-
-/* Center buttons in sections */
-.btn-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
 }
 
 .light-bg {
@@ -135,6 +138,18 @@ p {
 
 .feature-card p {
     color: #ddd;
+}
+
+/* Subscription Section */
+#subscription .cta-btn {
+    margin-top: 30px;
+}
+
+/* Center buttons in sections */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 /* Footer Section */
