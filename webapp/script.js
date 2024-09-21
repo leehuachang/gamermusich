@@ -46,7 +46,6 @@ const musicTracks = {
     ],
     citypop: [
         'music/夕日の街で.mp3',
-		'music/City Pop Night Mazda Miata.mp3',
 		'music/City Pop Night Mazda Rx7.mp3',
 		'music/City Pop Summer Mazda Miata.mp3',
         'music/シティでドライブしたい.mp3',
