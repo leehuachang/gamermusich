@@ -1,5 +1,5 @@
 const musicTracks = {
-    combat: [
+    warhammer: [
         'music/warhammer 40k 1.mp3',
         'music/warhammer 40k 2.mp3',
         'music/warhammer 40k 3.mp3',
@@ -9,9 +9,9 @@ const musicTracks = {
 		'music/warhammer 40k 7.mp3',
 		'music/warhammer 40k 8.mp3',
 		'music/warhammer 40k 9.mp3',
-        // Add more combat tracks here
+        // Add more warhammer tracks here
     ],
-    exploration: [
+    lofi: [
         'music/Lofi hiphop 1.mp3',
         'music/Lofi hiphop 2.mp3',
 		'music/Lofi hiphop 3.mp3',
@@ -21,12 +21,12 @@ const musicTracks = {
 		'music/Lofi hiphop 7.mp3',
 		'music/Lofi hiphop 8.mp3',
 		'music/Lofi hiphop 9.mp3',
-        // Add more exploration tracks here
+        // Add more lofi tracks here
     ],
-    boss: [
-        'music/boss1.mp3',
-        'music/boss2.mp3','music/Lofi hiphop 9.mp3',
-        // Add more boss fight tracks here
+    citypop: [
+        'music/citypop1.mp3',
+        'music/citypop2.mp3','music/Lofi hiphop 9.mp3',
+        // Add more citypop fight tracks here
     ]
 };
 
