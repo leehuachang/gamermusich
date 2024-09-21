@@ -11,6 +11,27 @@ const musicTracks = {
 		'music/warhammer 40k 9.mp3',
         // Add more warhammer tracks here
     ],
+    transformers: [
+        'music/Gotaku6 - Optimus Prime.mp3',
+        'music/Gotaku6 - Transformers.mp3',
+        // Add more tracks here
+    ],
+	dbeng: [
+        'music/Gotaku6 - Go! Go! Goku! (English ver).mp3',
+        'music/Gotaku6 - Vegeta (English ver).mp3',
+        // Add more tracks here
+    ],
+	dbjp: [
+        'music/Gotaku6 - Go! Go! Goku! (JP ver).mp3',
+        'music/Gotaku6 - Vegeta (JP ver).mp3',
+        // Add more tracks here
+    ],
+	megaman: [
+        'music/Gotaku6 - Megaman X.mp3',
+        'music/Gotaku6 - Zero.mp3',
+		'music/Gotaku6 - Sigma.mp3',
+        // Add more tracks here
+    ],
     lofi: [
         'music/Lofi hiphop 1.mp3',
         'music/Lofi hiphop 2.mp3',
@@ -24,8 +45,14 @@ const musicTracks = {
         // Add more lofi tracks here
     ],
     citypop: [
-        'music/citypop1.mp3',
-        'music/citypop2.mp3','music/Lofi hiphop 9.mp3',
+        'music/夕日の街で.mp3',
+		'music/City Pop Night Mazda Miata.mp3',
+		'music/City Pop Night Mazda Rx7.mp3',
+		'music/City Pop Summer Mazda Miata.mp3',
+        'music/シティでドライブしたい.mp3',
+		'music/City Pop Summer Mazda Rx7.mp3',
+		'music/Neon Nights City Brass.mp3',
+		'music/ネオンの光　街を照らし.mp3',
         // Add more citypop fight tracks here
     ]
 };
