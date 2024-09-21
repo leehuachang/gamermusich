@@ -52,8 +52,21 @@ const musicTracks = {
 		'music/City Pop Summer Mazda Rx7.mp3',
 		'music/Neon Nights City Brass.mp3',
 		'music/ネオンの光　街を照らし.mp3',
-        // Add more citypop fight tracks here
-    ]
+        // Add more citypop tracks here
+    ],
+	kpop: [
+        'music/Blue Astra - Ill Find My Way.mp3',
+		'music/Blue Astra - Virtual Cage.mp3',
+		'music/Blue Astra - Come Back!.mp3',
+        'music/Blue Astra - Cosmic Romance.mp3',
+		'music/Blue Astra - Every Class, Every Test.mp3',
+		'music/Pink Astra - Connect!.mp3',
+		'music/Pink Astra - Elon Musk (In The Stars).mp3',
+		'music/Pink Astra - Ill find my way.mp3',
+		'music/Pink Astra - My World.mp3',
+		'music/pinkastra - triple a.mp3',
+        // Add more tracks here
+    ],
 };
 
 const buttons = document.querySelectorAll('.categories button');
